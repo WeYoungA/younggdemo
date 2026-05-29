@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AppScaffold</string>
+
+    <!-- Feed -->
+    <string name="feed_title">Feed</string>
+    <string name="feed_retry">Retry</string>
+    <string name="feed_empty">No items yet</string>
+    <string name="feed_error">Something went wrong</string>
+
+    <!-- Detail -->
+    <string name="detail_title">Detail</string>
+</resources>

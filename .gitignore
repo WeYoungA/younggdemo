@@ -1,0 +1,18 @@
+*.iml
+.gradle
+/local.properties
+# Ignore the entire IDE folder — nothing in .idea/ needs to be shared for a
+# single-author interview scaffold.
+.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Ignore module build dirs (e.g. app/build)
+build/
+
+# Kotlin incremental-compile cache
+.kotlin/

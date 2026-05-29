@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/feedFragment">
+
+    <fragment
+        android:id="@+id/feedFragment"
+        android:name="dev.yuyang.app.ui.feed.FeedFragment"
+        android:label="@string/feed_title"
+        tools:layout="@layout/fragment_feed"
+        xmlns:tools="http://schemas.android.com/tools">
+
+        <action
+            android:id="@+id/action_feed_to_detail"
+            app:destination="@id/detailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="dev.yuyang.app.ui.detail.DetailFragment"
+        android:label="@string/detail_title"
+        tools:layout="@layout/fragment_detail"
+        xmlns:tools="http://schemas.android.com/tools">
+
+        <argument
+            android:name="itemId"
+            app:argType="string" />
+    </fragment>
+
+</navigation>
